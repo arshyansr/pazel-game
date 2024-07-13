@@ -22,6 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let secondCard = null;
     let lockBoard = false;
 
+
+
     grid.addEventListener('click', function(event) {
         const clickedCard = event.target;
         
