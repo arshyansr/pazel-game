@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #404342eb;
+    margin: 0;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #1e90ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+.card.hidden {
+    background-color: #1e90ff;
+    color: #1e90ff;
+}
+ 
+h1{
+    font-size: 50px;
+    font-family: tahoma;
+    display: inline-block;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: #73b2f1;
+    color: white;
+}
+
+.container{
+    text-align: center;
+}
